@@ -4,6 +4,7 @@ public class SortingChallenge {
 
     // =========================================================
     // OPTION 1 — BUBBLE SORT
+    // Partner: _________________
     // Big-O: ___________________
     // =========================================================
     public static void bubbleSort(int[] arr) {
@@ -27,6 +28,7 @@ public class SortingChallenge {
 
     // =========================================================
     // OPTION 2 — INSERTION SORT
+    // Partner: _________________
     // Big-O: ___________________
     // =========================================================
     public static void insertionSort(int[] arr) {
@@ -49,13 +51,14 @@ public class SortingChallenge {
 
     // =========================================================
     // OPTION 3 — SELECTION SORT
+    // Partner: _________________
     // Big-O: always ___________________ (even if already sorted!)
     // =========================================================
     public static void selectionSort(int[] arr) {
         int n = arr.length;
 
         // Outer loop: i is the boundary — arr[0..i-1] is already sorted
-        for (int i = 0; i < n - 1; i++) {
+        for (__________________) {
             int minIdx = i; // assume position i holds the current minimum
 
             // TODO: inner loop — scan unsorted portion arr[i+1 .. n-1]
